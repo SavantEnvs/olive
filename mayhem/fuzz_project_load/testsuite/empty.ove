@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<olive version="230220" url="/tmp/seeds/empty.ove">
+    <project>
+        <project version="1">
+            <uuid>{c7f30d1c-ab96-441b-b2da-b905d281727b}</uuid>
+            <settings>
+                <colorreferencespace>scene_linear</colorreferencespace>
+                <defaultinputcolorspace>Rec.709 OETF</defaultinputcolorspace>
+            </settings>
+        </project>
+        <layout version="1">
+            <folders/>
+            <timeline/>
+            <viewers/>
+            <data/>
+            <state></state>
+        </layout>
+    </project>
+</olive>

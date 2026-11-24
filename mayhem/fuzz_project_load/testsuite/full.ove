@@ -1,0 +1,3250 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<olive version="230220" url="/tmp/seeds/full.ove">
+    <project>
+        <project version="1">
+            <uuid>{be61fbf6-3b04-434e-9e5a-77fd4b81782f}</uuid>
+            <nodes>
+                <node version="1" id="org.olivevideoeditor.Olive.sequence" ptr="98797364581984">
+                    <label>Seq 1</label>
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="video_param_in">
+                        <primary>
+                            <standard>
+                                <track>
+                                    <width>0</width>
+                                    <height>0</height>
+                                    <depth>0</depth>
+                                    <timebase>0/1</timebase>
+                                    <format>-1</format>
+                                    <channelcount>0</channelcount>
+                                    <pixelaspectratio>0/1</pixelaspectratio>
+                                    <interlacing>0</interlacing>
+                                    <divider>1</divider>
+                                    <enabled>1</enabled>
+                                    <x>0</x>
+                                    <y>0</y>
+                                    <streamindex>0</streamindex>
+                                    <videotype>0</videotype>
+                                    <framerate>0/1</framerate>
+                                    <starttime>0</starttime>
+                                    <duration>0</duration>
+                                    <premultipliedalpha>0</premultipliedalpha>
+                                    <colorspace></colorspace>
+                                    <colorrange>0</colorrange>
+                                </track>
+                            </standard>
+                        </primary>
+                        <subelements count="1">
+                            <element>
+                                <standard>
+                                    <track>
+                                        <width>1920</width>
+                                        <height>1080</height>
+                                        <depth>1</depth>
+                                        <timebase>1001/30000</timebase>
+                                        <format>2</format>
+                                        <channelcount>4</channelcount>
+                                        <pixelaspectratio>1/1</pixelaspectratio>
+                                        <interlacing>0</interlacing>
+                                        <divider>2</divider>
+                                        <enabled>1</enabled>
+                                        <x>0</x>
+                                        <y>0</y>
+                                        <streamindex>0</streamindex>
+                                        <videotype>0</videotype>
+                                        <framerate>30000/1001</framerate>
+                                        <starttime>0</starttime>
+                                        <duration>0</duration>
+                                        <premultipliedalpha>0</premultipliedalpha>
+                                        <colorspace></colorspace>
+                                        <colorrange>0</colorrange>
+                                    </track>
+                                </standard>
+                            </element>
+                        </subelements>
+                    </input>
+                    <input id="audio_param_in">
+                        <primary>
+                            <standard>
+                                <track>
+                                    <samplerate>0</samplerate>
+                                    <channellayout>0</channellayout>
+                                    <format></format>
+                                    <enabled>1</enabled>
+                                    <streamindex>0</streamindex>
+                                    <duration>0</duration>
+                                    <timebase>0/1</timebase>
+                                </track>
+                            </standard>
+                        </primary>
+                        <subelements count="1">
+                            <element>
+                                <standard>
+                                    <track>
+                                        <samplerate>48000</samplerate>
+                                        <channellayout>3</channellayout>
+                                        <format>f32p</format>
+                                        <enabled>1</enabled>
+                                        <streamindex>0</streamindex>
+                                        <duration>0</duration>
+                                        <timebase>1/48000</timebase>
+                                    </track>
+                                </standard>
+                            </element>
+                        </subelements>
+                    </input>
+                    <input id="subtitle_param_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="tex_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="samples_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="track_in_0">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                        <subelements count="1">
+                            <element>
+                                <standard>
+                                    <track></track>
+                                </standard>
+                            </element>
+                        </subelements>
+                    </input>
+                    <input id="track_in_1">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                        <subelements count="1">
+                            <element>
+                                <standard>
+                                    <track></track>
+                                </standard>
+                            </element>
+                        </subelements>
+                    </input>
+                    <input id="track_in_2">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <connections>
+                        <connection input="samples_in" element="-1">
+                            <output>98797364760720</output>
+                        </connection>
+                        <connection input="tex_in" element="-1">
+                            <output>98797364479104</output>
+                        </connection>
+                        <connection input="track_in_0" element="0">
+                            <output>98797364479104</output>
+                        </connection>
+                        <connection input="track_in_1" element="0">
+                            <output>98797364760720</output>
+                        </connection>
+                    </connections>
+                    <context>
+                        <node ptr="98797364479104">
+                            <x>-1</x>
+                            <y>-0.5</y>
+                            <expanded>0</expanded>
+                        </node>
+                        <node ptr="98797364760720">
+                            <x>-1</x>
+                            <y>0.5</y>
+                            <expanded>0</expanded>
+                        </node>
+                    </context>
+                    <caches>
+                        <audio>{6313a06b-0d51-41b4-803b-e9ab72b1645b}</audio>
+                        <video>{c3715acd-ed7e-4f35-8b46-3153898b4854}</video>
+                        <thumb>{0713fe35-f2e4-4056-9a12-d2bc2b3a0dcc}</thumb>
+                        <waveform>{3facb761-bca4-4d2f-928b-07c125b95d1b}</waveform>
+                    </caches>
+                    <custom>
+                        <workarea version="1">
+                            <enabled>0</enabled>
+                            <in>0/1</in>
+                            <out>0/1</out>
+                        </workarea>
+                        <markers>
+                            <marker name="m" in="1/1" out="2/1" color="1"/>
+                        </markers>
+                    </custom>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.track" ptr="98797364479104">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="block_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="muted_in">
+                        <primary>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="arraymap_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{2aa5168d-09bf-41c6-8a32-0aec7ac41eeb}</audio>
+                        <video>{37aab16a-52e6-4046-b7d1-dedf00c902f3}</video>
+                        <thumb>{9d972a62-3ec7-4f1f-b24c-96ead38e3029}</thumb>
+                        <waveform>{b572e6a6-df17-44e3-aca2-3aa07fa8ddaa}</waveform>
+                    </caches>
+                    <custom>
+                        <height>3</height>
+                    </custom>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.track" ptr="98797364760720">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="block_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="muted_in">
+                        <primary>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="arraymap_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{f8c0f6e2-8d58-431c-859f-c7f3773fdcd9}</audio>
+                        <video>{93010b27-bed3-4313-b487-3132c24ff31f}</video>
+                        <thumb>{0163a1fb-a063-45f9-b144-0e9d4245d0ad}</thumb>
+                        <waveform>{7d88ac41-bfca-4de9-9e10-df0e18e75afc}</waveform>
+                    </caches>
+                    <custom>
+                        <height>3</height>
+                    </custom>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.vieweroutput" ptr="98797364408688">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="video_param_in">
+                        <primary>
+                            <standard>
+                                <track>
+                                    <width>0</width>
+                                    <height>0</height>
+                                    <depth>0</depth>
+                                    <timebase>0/1</timebase>
+                                    <format>-1</format>
+                                    <channelcount>0</channelcount>
+                                    <pixelaspectratio>0/1</pixelaspectratio>
+                                    <interlacing>0</interlacing>
+                                    <divider>1</divider>
+                                    <enabled>1</enabled>
+                                    <x>0</x>
+                                    <y>0</y>
+                                    <streamindex>0</streamindex>
+                                    <videotype>0</videotype>
+                                    <framerate>0/1</framerate>
+                                    <starttime>0</starttime>
+                                    <duration>0</duration>
+                                    <premultipliedalpha>0</premultipliedalpha>
+                                    <colorspace></colorspace>
+                                    <colorrange>0</colorrange>
+                                </track>
+                            </standard>
+                        </primary>
+                        <subelements count="1">
+                            <element>
+                                <standard>
+                                    <track>
+                                        <width>1920</width>
+                                        <height>1080</height>
+                                        <depth>1</depth>
+                                        <timebase>1001/30000</timebase>
+                                        <format>2</format>
+                                        <channelcount>4</channelcount>
+                                        <pixelaspectratio>1/1</pixelaspectratio>
+                                        <interlacing>0</interlacing>
+                                        <divider>2</divider>
+                                        <enabled>1</enabled>
+                                        <x>0</x>
+                                        <y>0</y>
+                                        <streamindex>0</streamindex>
+                                        <videotype>0</videotype>
+                                        <framerate>30000/1001</framerate>
+                                        <starttime>0</starttime>
+                                        <duration>0</duration>
+                                        <premultipliedalpha>0</premultipliedalpha>
+                                        <colorspace></colorspace>
+                                        <colorrange>0</colorrange>
+                                    </track>
+                                </standard>
+                            </element>
+                        </subelements>
+                    </input>
+                    <input id="audio_param_in">
+                        <primary>
+                            <standard>
+                                <track>
+                                    <samplerate>0</samplerate>
+                                    <channellayout>0</channellayout>
+                                    <format></format>
+                                    <enabled>1</enabled>
+                                    <streamindex>0</streamindex>
+                                    <duration>0</duration>
+                                    <timebase>0/1</timebase>
+                                </track>
+                            </standard>
+                        </primary>
+                        <subelements count="1">
+                            <element>
+                                <standard>
+                                    <track>
+                                        <samplerate>48000</samplerate>
+                                        <channellayout>3</channellayout>
+                                        <format>f32p</format>
+                                        <enabled>1</enabled>
+                                        <streamindex>0</streamindex>
+                                        <duration>0</duration>
+                                        <timebase>1/48000</timebase>
+                                    </track>
+                                </standard>
+                            </element>
+                        </subelements>
+                    </input>
+                    <input id="subtitle_param_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="tex_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="samples_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{dafc88c2-137e-480d-8dfa-3b84419e04ec}</audio>
+                        <video>{74cfb66b-9492-4299-86e6-59cbad3dff12}</video>
+                        <thumb>{dedbe556-05f9-45b9-9d18-5cfa04001195}</thumb>
+                        <waveform>{77ccbaed-a165-4135-8fa2-6515f23b4677}</waveform>
+                    </caches>
+                    <custom>
+                        <workarea version="1">
+                            <enabled>0</enabled>
+                            <in>0/1</in>
+                            <out>0/1</out>
+                        </workarea>
+                        <markers/>
+                    </custom>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.clip" ptr="98797364601024">
+                    <input id="buffer_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="enabled_in">
+                        <primary>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="length_in">
+                        <primary>
+                            <standard>
+                                <track>0/1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="media_in_in">
+                        <primary>
+                            <standard>
+                                <track>0/1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="speed_in">
+                        <primary>
+                            <standard>
+                                <track>1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="reverse_in">
+                        <primary>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="maintain_audio_pitch_in">
+                        <primary>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="autocache_in">
+                        <primary>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="loop_in">
+                        <primary>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{be437463-d82d-4c71-b76d-36a3a7633414}</audio>
+                        <video>{9f3cac57-f24b-4001-9789-eae64cdd0eed}</video>
+                        <thumb>{11255172-7aec-49c6-a1e9-6b4a6c8b4933}</thumb>
+                        <waveform>{2cefcdbd-5d73-4718-afb9-c0a7865fa4a0}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.gap" ptr="98797364760064">
+                    <input id="enabled_in">
+                        <primary>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="length_in">
+                        <primary>
+                            <standard>
+                                <track>0/1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{2872459a-b259-453b-89fe-0268f55e2eb0}</audio>
+                        <video>{44282ff0-2f79-41ea-9d64-134d08240a15}</video>
+                        <thumb>{a0591c18-887c-4f35-99e6-67749dc83464}</thumb>
+                        <waveform>{590bf0b4-21ad-4dea-824b-7faaac3b5050}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.polygon" ptr="98797364678448">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="base_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="points_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                                <track>0</track>
+                                <track>0</track>
+                                <track>0</track>
+                                <track>0</track>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                        <subelements count="5">
+                            <element>
+                                <keyframing>0</keyframing>
+                                <standard>
+                                    <track>0</track>
+                                    <track>-135</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                </standard>
+                            </element>
+                            <element>
+                                <keyframing>0</keyframing>
+                                <standard>
+                                    <track>135</track>
+                                    <track>-45</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                </standard>
+                            </element>
+                            <element>
+                                <keyframing>0</keyframing>
+                                <standard>
+                                    <track>90</track>
+                                    <track>120</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                </standard>
+                            </element>
+                            <element>
+                                <keyframing>0</keyframing>
+                                <standard>
+                                    <track>-90</track>
+                                    <track>120</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                </standard>
+                            </element>
+                            <element>
+                                <keyframing>0</keyframing>
+                                <standard>
+                                    <track>-135</track>
+                                    <track>-45</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                </standard>
+                            </element>
+                        </subelements>
+                    </input>
+                    <input id="color_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>1</track>
+                                <track>1</track>
+                                <track>1</track>
+                                <track>1</track>
+                            </standard>
+                            <csinput></csinput>
+                            <csdisplay></csdisplay>
+                            <csview></csview>
+                            <cslook></cslook>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{3153de72-8f66-46f8-96f8-773fc6d4699e}</audio>
+                        <video>{70aa5fcd-f88a-4c1d-9a47-98927575e05f}</video>
+                        <thumb>{6febc70a-2706-46d0-8374-3543140d8d0e}</thumb>
+                        <waveform>{80400b2d-792c-41d0-9d7a-b3582a35db61}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.ortho" ptr="98797364761984">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="pos_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="rot_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="scale_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>1</track>
+                                <track>1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="uniform_scale_in">
+                        <primary>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="anchor_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{52465826-b975-4625-9089-dcca5a75809c}</audio>
+                        <video>{8b91a8d5-6c9f-408d-ab6b-f765dd8f2ab2}</video>
+                        <thumb>{a8705fbb-55f3-4832-b0d4-b332f25b642e}</thumb>
+                        <waveform>{45e2179c-7289-4437-b99b-6777008d9d6c}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.transform" ptr="98797364231568">
+                    <input id="tex_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="pos_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="rot_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="scale_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>1</track>
+                                <track>1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="uniform_scale_in">
+                        <primary>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="anchor_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="parent_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="autoscale_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="interpolation_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>2</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{dde70e5b-3633-4c08-ae37-d8aed9f8f9cc}</audio>
+                        <video>{277b126f-edf2-461b-a1fd-247657bb36b5}</video>
+                        <thumb>{3f702369-a115-43a4-9d54-38d5b92f1250}</thumb>
+                        <waveform>{f22d0470-70d5-46d0-be50-24948bcec6b3}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.track" ptr="98797364313696">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="block_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="muted_in">
+                        <primary>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="arraymap_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{ec90f89a-68bc-47c2-b9c5-b7ee19cbeb73}</audio>
+                        <video>{c89b4688-762d-48d9-9672-e2a8f74bf952}</video>
+                        <thumb>{3c3b4230-ee94-43f3-8004-93844e209528}</thumb>
+                        <waveform>{6074bd93-8dc7-438a-a491-ba8e658027f9}</waveform>
+                    </caches>
+                    <custom>
+                        <height>3</height>
+                    </custom>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.volume" ptr="98797364292192">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="samples_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="volume_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{af9f272b-e340-4f71-a7e1-90d51b592157}</audio>
+                        <video>{c67b1f1f-afa0-4df9-8f1b-22c4e1df40d1}</video>
+                        <thumb>{adbf3e52-4b29-478c-be75-c3b83243a822}</thumb>
+                        <waveform>{4e05694e-1a8d-47d3-b067-4295b2512ff4}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.pan" ptr="98797364626832">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="samples_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="panning_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{3e4c1704-7e7a-4262-9d99-e7512b9ba909}</audio>
+                        <video>{6d64e130-c2a2-46a5-b7a8-e6e4fa4f3aa7}</video>
+                        <thumb>{1d7ad403-940f-448b-b7d5-1ae142bc7436}</thumb>
+                        <waveform>{31741f1f-4343-47ad-b91e-dbc4a1ca8114}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.math" ptr="98797364498416">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="method_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="param_a_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="param_b_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{5a11b647-5259-4524-aef9-40b25654da2f}</audio>
+                        <video>{9f4d6768-e983-487b-9fbf-9535cf4843a3}</video>
+                        <thumb>{dfab73e2-876f-4b59-a523-74df93c23a1f}</thumb>
+                        <waveform>{c973a2f0-5d78-4154-afe2-453b4e484244}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.time" ptr="98797364481024">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{ee259247-7fb7-4f75-9b70-36eace787c0b}</audio>
+                        <video>{a83f6a5c-f415-449a-9f66-73772175a75d}</video>
+                        <thumb>{a8a8d92a-1093-4893-a882-fa4447012a94}</thumb>
+                        <waveform>{0026cf6e-054e-435a-a327-54ee84e14964}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.trigonometry" ptr="98797364796032">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="method_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="x_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{cfaa9b25-964d-4fdb-856e-f255af317900}</audio>
+                        <video>{05273bd8-a5ba-482b-a5ab-d42d67051582}</video>
+                        <thumb>{6eb5aaed-7fa9-414d-a6ba-a85e42181ea8}</thumb>
+                        <waveform>{509076e1-5b21-4edb-817c-1413ec34bd6b}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.blur" ptr="98797364349344">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="tex_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="method_in">
+                        <primary>
+                            <standard>
+                                <track>1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="radius_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>10</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="horiz_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="vert_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="directional_degrees_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="radial_center_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="repeat_edge_pixels_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{2ffb259c-cbf9-425c-9553-a3b57825f4bc}</audio>
+                        <video>{92945284-9c99-4d5c-95b6-633e5074e35e}</video>
+                        <thumb>{c67f4cfc-4ccd-4abb-87d2-0e16ccdb9b57}</thumb>
+                        <waveform>{0d63fb9d-8271-479a-b74c-7738d4a19db8}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.solidgenerator" ptr="98797364533840">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="color_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>1</track>
+                                <track>0</track>
+                                <track>0</track>
+                                <track>1</track>
+                            </standard>
+                            <csinput></csinput>
+                            <csdisplay></csdisplay>
+                            <csview></csview>
+                            <cslook></cslook>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{cb918014-0f4c-4f38-a7c0-06da7a1c5215}</audio>
+                        <video>{980c9790-65f3-4e55-9e6e-a74ec5474deb}</video>
+                        <thumb>{790036d7-62dd-4bad-ac66-073b6610502b}</thumb>
+                        <waveform>{53d950e8-9f10-4458-8adf-2240d998b57a}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.merge" ptr="98797364483456">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="base_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="blend_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{984614fc-f936-4d45-8603-5f2e6422ba1d}</audio>
+                        <video>{b2a124ec-699c-4e50-96c3-e1fc8c0ce3fe}</video>
+                        <thumb>{3c8cdae3-8527-4a27-aea3-cb1025f0ecd0}</thumb>
+                        <waveform>{d9ae03f3-aec7-4a49-9fda-d3981e56acb8}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.stroke" ptr="98797364497760">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="tex_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="color_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>1</track>
+                                <track>1</track>
+                                <track>1</track>
+                                <track>1</track>
+                            </standard>
+                            <csinput></csinput>
+                            <csdisplay></csdisplay>
+                            <csview></csview>
+                            <cslook></cslook>
+                        </primary>
+                    </input>
+                    <input id="radius_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>10</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="opacity_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="inner_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{93491a82-2ce6-4dbf-b4fe-86949b4c776c}</audio>
+                        <video>{00e70c4e-8228-4a33-a8ce-bb4266e1107c}</video>
+                        <thumb>{4d5e65f6-457e-44de-a547-b9c63c8f943e}</thumb>
+                        <waveform>{3b20ef2d-a5ad-4d0f-af1a-1b79e0f4ae23}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.textgenerator" ptr="98797364807776">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="text_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>Sample Text</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="html_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="color_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>1</track>
+                                <track>1</track>
+                                <track>1</track>
+                                <track>1</track>
+                            </standard>
+                            <csinput></csinput>
+                            <csdisplay></csdisplay>
+                            <csview></csview>
+                            <cslook></cslook>
+                        </primary>
+                    </input>
+                    <input id="valign_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="font_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="font_size_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>72</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{beb325db-b116-4aab-97a0-99b603b8eac4}</audio>
+                        <video>{b4a8cdc4-067f-4e44-b584-81ee0ac4268c}</video>
+                        <thumb>{d41e0513-5ff8-492f-9cd3-f2ca1b0ec9b6}</thumb>
+                        <waveform>{26286a63-bf54-4507-a3bb-4367e9899d58}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.text2" ptr="98797364351888">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="base_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="pos_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="size_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>400</track>
+                                <track>300</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="color_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>1</track>
+                                <track>1</track>
+                                <track>1</track>
+                                <track>1</track>
+                            </standard>
+                            <csinput></csinput>
+                            <csdisplay></csdisplay>
+                            <csview></csview>
+                            <cslook></cslook>
+                        </primary>
+                    </input>
+                    <input id="text_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>Sample Text</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="html_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="valign_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="font_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="font_size_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>72</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{25ecdd58-859a-41f1-ac21-244e9250c758}</audio>
+                        <video>{b66fdea7-6fff-4514-8eb7-2b01b4e27d91}</video>
+                        <thumb>{d4d21be0-d606-42b8-a9f6-8dcd0022af1f}</thumb>
+                        <waveform>{798e7852-9d6e-4824-ad26-2b5db10cf8d0}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.text3" ptr="98797364327232">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="base_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="pos_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="size_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>400</track>
+                                <track>300</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="text_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>&lt;p style='font-size: 72pt; color: white;'&gt;Sample Text&lt;/p&gt;</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="valign_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="use_args_in">
+                        <primary>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="args_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{f0eba23b-7fd5-4fbc-9460-7c32152e3870}</audio>
+                        <video>{424ff45c-2231-43ba-98b0-c3058c602783}</video>
+                        <thumb>{1299683f-2cf6-4abe-9c06-363f7044b06f}</thumb>
+                        <waveform>{1d47ce6e-85b2-489f-9325-df806d071bdf}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.crossdissolve" ptr="98797364766752">
+                    <input id="enabled_in">
+                        <primary>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="length_in">
+                        <primary>
+                            <standard>
+                                <track>0/1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="out_block_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="in_block_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="curve_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="center_in">
+                        <primary>
+                            <standard>
+                                <track>0/1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{d9f478cc-a53c-4fa7-88fd-0277f910fbc2}</audio>
+                        <video>{5279907a-e61e-46af-b734-11b9afcffaea}</video>
+                        <thumb>{0dbb1f8d-4819-4d38-878c-eb11c6197e19}</thumb>
+                        <waveform>{178329f6-f7bd-41a5-948a-47dfb3c9280f}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.diptocolor" ptr="98797364806496">
+                    <input id="enabled_in">
+                        <primary>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="length_in">
+                        <primary>
+                            <standard>
+                                <track>0/1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="out_block_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="in_block_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="curve_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="center_in">
+                        <primary>
+                            <standard>
+                                <track>0/1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="color_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                                <track>0</track>
+                                <track>0</track>
+                                <track>1</track>
+                            </standard>
+                            <csinput></csinput>
+                            <csdisplay></csdisplay>
+                            <csview></csview>
+                            <cslook></cslook>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{1e4281d9-c24d-4c9d-b84e-221113d5fb96}</audio>
+                        <video>{9015a653-749d-417b-b504-5c8ca5bf41ec}</video>
+                        <thumb>{a6e10ce2-62ed-4d36-a17f-899a5d00b3a7}</thumb>
+                        <waveform>{ba52afb9-a6db-4275-a16d-59e21b34931b}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.mosaicfilter" ptr="98797364776928">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="tex_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="horiz_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>32</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="vert_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>18</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{fd8c52b1-7c07-45d1-81ab-f829e086f6ec}</audio>
+                        <video>{4f095b9d-2622-436f-8e69-d6e164e74db0}</video>
+                        <thumb>{f5af46b9-050f-497f-bdff-aef5c2f8e97a}</thumb>
+                        <waveform>{464488b0-f4a2-469c-b64a-c741d8947beb}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.crop" ptr="98797364738704">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="tex_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="left_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="top_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="right_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="bottom_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="feather_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{65274ae1-f4aa-465f-9ebc-e0c79fb03ca7}</audio>
+                        <video>{6ca4a846-9fb8-42ef-b20b-f1469291e6df}</video>
+                        <thumb>{0135a157-c9c4-486b-abe8-3d6933bb1cad}</thumb>
+                        <waveform>{9c835bda-96a1-4277-83ec-70bbc4cf97a7}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.footage" ptr="98797364676608">
+                    <input id="file_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="video_param_in">
+                        <primary>
+                            <standard>
+                                <track>
+                                    <width>0</width>
+                                    <height>0</height>
+                                    <depth>0</depth>
+                                    <timebase>0/1</timebase>
+                                    <format>-1</format>
+                                    <channelcount>0</channelcount>
+                                    <pixelaspectratio>0/1</pixelaspectratio>
+                                    <interlacing>0</interlacing>
+                                    <divider>1</divider>
+                                    <enabled>1</enabled>
+                                    <x>0</x>
+                                    <y>0</y>
+                                    <streamindex>0</streamindex>
+                                    <videotype>0</videotype>
+                                    <framerate>0/1</framerate>
+                                    <starttime>0</starttime>
+                                    <duration>0</duration>
+                                    <premultipliedalpha>0</premultipliedalpha>
+                                    <colorspace></colorspace>
+                                    <colorrange>0</colorrange>
+                                </track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="audio_param_in">
+                        <primary>
+                            <standard>
+                                <track>
+                                    <samplerate>0</samplerate>
+                                    <channellayout>0</channellayout>
+                                    <format></format>
+                                    <enabled>1</enabled>
+                                    <streamindex>0</streamindex>
+                                    <duration>0</duration>
+                                    <timebase>0/1</timebase>
+                                </track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="subtitle_param_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{be8b272d-e0e8-4f9b-a778-51b85f37c9ef}</audio>
+                        <video>{27ec7388-1102-4b34-b5b6-0a775b87e602}</video>
+                        <thumb>{350fa1db-6eab-4415-8dc7-1dc2887f634c}</thumb>
+                        <waveform>{d8a2f8fd-1acd-4edf-abf9-bd4d4932c847}</waveform>
+                    </caches>
+                    <custom>
+                        <timestamp>0</timestamp>
+                        <viewer>
+                            <workarea version="1">
+                                <enabled>0</enabled>
+                                <in>0/1</in>
+                                <out>0/1</out>
+                            </workarea>
+                            <markers/>
+                        </viewer>
+                    </custom>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.folder" ptr="98797364249696">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="child_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{cf984c4f-72a1-4418-9304-5e0fb03bae07}</audio>
+                        <video>{383d2aa0-e76b-436e-91a6-15785b2a4012}</video>
+                        <thumb>{add9cbf8-13eb-448b-8db1-7b64d731a39d}</thumb>
+                        <waveform>{ce8e5fef-e9cc-4bce-8c99-0597e04bb149}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.sequence" ptr="98797364698992">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="video_param_in">
+                        <primary>
+                            <standard>
+                                <track>
+                                    <width>0</width>
+                                    <height>0</height>
+                                    <depth>0</depth>
+                                    <timebase>0/1</timebase>
+                                    <format>-1</format>
+                                    <channelcount>0</channelcount>
+                                    <pixelaspectratio>0/1</pixelaspectratio>
+                                    <interlacing>0</interlacing>
+                                    <divider>1</divider>
+                                    <enabled>1</enabled>
+                                    <x>0</x>
+                                    <y>0</y>
+                                    <streamindex>0</streamindex>
+                                    <videotype>0</videotype>
+                                    <framerate>0/1</framerate>
+                                    <starttime>0</starttime>
+                                    <duration>0</duration>
+                                    <premultipliedalpha>0</premultipliedalpha>
+                                    <colorspace></colorspace>
+                                    <colorrange>0</colorrange>
+                                </track>
+                            </standard>
+                        </primary>
+                        <subelements count="1">
+                            <element>
+                                <standard>
+                                    <track>
+                                        <width>1920</width>
+                                        <height>1080</height>
+                                        <depth>1</depth>
+                                        <timebase>1001/30000</timebase>
+                                        <format>2</format>
+                                        <channelcount>4</channelcount>
+                                        <pixelaspectratio>1/1</pixelaspectratio>
+                                        <interlacing>0</interlacing>
+                                        <divider>2</divider>
+                                        <enabled>1</enabled>
+                                        <x>0</x>
+                                        <y>0</y>
+                                        <streamindex>0</streamindex>
+                                        <videotype>0</videotype>
+                                        <framerate>30000/1001</framerate>
+                                        <starttime>0</starttime>
+                                        <duration>0</duration>
+                                        <premultipliedalpha>0</premultipliedalpha>
+                                        <colorspace></colorspace>
+                                        <colorrange>0</colorrange>
+                                    </track>
+                                </standard>
+                            </element>
+                        </subelements>
+                    </input>
+                    <input id="audio_param_in">
+                        <primary>
+                            <standard>
+                                <track>
+                                    <samplerate>0</samplerate>
+                                    <channellayout>0</channellayout>
+                                    <format></format>
+                                    <enabled>1</enabled>
+                                    <streamindex>0</streamindex>
+                                    <duration>0</duration>
+                                    <timebase>0/1</timebase>
+                                </track>
+                            </standard>
+                        </primary>
+                        <subelements count="1">
+                            <element>
+                                <standard>
+                                    <track>
+                                        <samplerate>48000</samplerate>
+                                        <channellayout>3</channellayout>
+                                        <format>f32p</format>
+                                        <enabled>1</enabled>
+                                        <streamindex>0</streamindex>
+                                        <duration>0</duration>
+                                        <timebase>1/48000</timebase>
+                                    </track>
+                                </standard>
+                            </element>
+                        </subelements>
+                    </input>
+                    <input id="subtitle_param_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="tex_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="samples_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="track_in_0">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="track_in_1">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="track_in_2">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{c10fa1c3-a0b5-4e19-8af0-9ab547a30d11}</audio>
+                        <video>{22df0ac8-b127-46eb-b2aa-c9877d789702}</video>
+                        <thumb>{80a0d329-f801-4b57-b7fe-14aaa5fd02e9}</thumb>
+                        <waveform>{fc381f04-27f6-4c88-a62d-cade293c536c}</waveform>
+                    </caches>
+                    <custom>
+                        <workarea version="1">
+                            <enabled>0</enabled>
+                            <in>0/1</in>
+                            <out>0/1</out>
+                        </workarea>
+                        <markers/>
+                    </custom>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.value" ptr="98797364789424">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="type_in">
+                        <primary>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="value_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{4beb4719-6ca8-432b-ab26-51cacd7325ca}</audio>
+                        <video>{e43d20f4-a80d-4fdc-9403-43aa79b59e02}</video>
+                        <thumb>{2f490b4e-0785-4ce1-add8-195cb77b64a7}</thumb>
+                        <waveform>{26d5ee5f-0221-4119-b96c-2a393064afaf}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.timeremap" ptr="98797364377392">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="time_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0/1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="input_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{c5d4fb64-36a9-4b53-ac4a-d8dcded2b37b}</audio>
+                        <video>{7eac6ac6-be98-4d46-bee6-499d0f7dabd7}</video>
+                        <thumb>{92d74493-8306-42a1-aeca-d1f9e4e6c58d}</thumb>
+                        <waveform>{359b30a4-8686-4eac-8101-4579f81f8b72}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.subtitle" ptr="98797364400096">
+                    <input id="buffer_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="enabled_in">
+                        <primary>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="length_in">
+                        <primary>
+                            <standard>
+                                <track>0/1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="media_in_in">
+                        <primary>
+                            <standard>
+                                <track>0/1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="speed_in">
+                        <primary>
+                            <standard>
+                                <track>1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="reverse_in">
+                        <primary>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="maintain_audio_pitch_in">
+                        <primary>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="autocache_in">
+                        <primary>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="loop_in">
+                        <primary>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="text_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{92f04373-30ac-4b8e-b8d7-25154760963d}</audio>
+                        <video>{1c897524-e47b-4b09-ad68-2410bcb3c6cd}</video>
+                        <thumb>{51258277-9ff2-4c89-bb9c-9440bfa7b778}</thumb>
+                        <waveform>{cb2e8982-96fe-4af2-8ad7-0b6bbc16146e}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.shape" ptr="98797364500880">
+                    <input id="type_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="base_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="pos_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="size_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>100</track>
+                                <track>100</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="color_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>1</track>
+                                <track>0</track>
+                                <track>0</track>
+                                <track>1</track>
+                            </standard>
+                            <csinput></csinput>
+                            <csdisplay></csdisplay>
+                            <csview></csview>
+                            <cslook></cslook>
+                        </primary>
+                    </input>
+                    <input id="radius_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>20</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{9b2d1fee-c0a6-4adc-9493-620afc1b2eff}</audio>
+                        <video>{f482eccd-36fd-473c-a95e-4bd72fc3b1d2}</video>
+                        <thumb>{9270e0cb-4886-472d-9982-a20bd03ddc72}</thumb>
+                        <waveform>{00e76b93-fda2-4517-b4d0-72dc8bdcc08b}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.colordifferencekey" ptr="98797364754368">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="tex_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="garbage_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="core_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="color_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="highlights_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="shadows_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="mask_only_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{387c4255-f2f0-4024-8481-a34f65bfa9fc}</audio>
+                        <video>{d4b85b35-560e-47b2-95d6-732b5f77513b}</video>
+                        <thumb>{f48237a1-191e-41fa-b36c-0cab04a8a6ff}</thumb>
+                        <waveform>{cdb2e23b-05eb-4985-a049-627086700496}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.despill" ptr="98797364457088">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="tex_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="color_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="method_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="preserve_luminance_input">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{58a24b02-c2b4-4584-8a4b-477ff125c130}</audio>
+                        <video>{cd5a7a73-d506-4f29-85e5-b15fd60ee29c}</video>
+                        <thumb>{f4f4a1d8-5b48-40c5-8086-1b470ca39aa7}</thumb>
+                        <waveform>{a760947c-c6d1-49f6-ba9d-787443957182}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.group" ptr="98797364463216">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{d8d6a60d-7a6d-46b0-8311-fcd1198c926c}</audio>
+                        <video>{b3e384ec-7222-4329-ad4b-b9ecf79a2e1d}</video>
+                        <thumb>{855f10c6-f79a-46c2-a78f-e56b60e1c235}</thumb>
+                        <waveform>{8e1d7e1b-0f70-46ad-91e4-bffdad241766}</waveform>
+                    </caches>
+                    <custom>
+                        <inputpassthroughs/>
+                        <outputpassthrough>0</outputpassthrough>
+                    </custom>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.opacity" ptr="98797364562160">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="tex_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="opacity_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <context>
+                        <node ptr="98797364565392">
+                            <x>0</x>
+                            <y>0</y>
+                            <expanded>0</expanded>
+                        </node>
+                    </context>
+                    <caches>
+                        <audio>{d7375b63-42ed-4c25-b402-d17075822316}</audio>
+                        <video>{e33c45ca-8000-43af-9b0e-ff01a54d4ae6}</video>
+                        <thumb>{db3e0962-bc1c-460c-abc7-e958c0a2fed1}</thumb>
+                        <waveform>{d46aee7b-9ca8-49e4-90f1-9686aaa84fe4}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.oliveeditor.Olive.flip" ptr="98797364730448">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="tex_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="horiz_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="vert_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{ada19c55-3a80-4ca3-8fc2-db8deaf6b6db}</audio>
+                        <video>{83cc1a5e-8419-4fd0-bbc0-2124ffad5d17}</video>
+                        <thumb>{449aeca1-82f0-42fd-a463-af8460fab4a5}</thumb>
+                        <waveform>{ad31b9cc-13e2-4d6c-9b50-ed90c28e83bb}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.noise" ptr="98797364701760">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="base_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="strength_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0.2</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="color_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{d3304d65-dd38-4008-8135-83238808c2b5}</audio>
+                        <video>{1a1473df-6f4b-4600-8e6c-24db58d97464}</video>
+                        <thumb>{12ccab10-dd57-4023-a418-2d65901019b9}</thumb>
+                        <waveform>{803544cb-d79a-447f-9ade-98374137497f}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.timeoffset" ptr="98797364707616">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="time_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0/1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="input_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{0a54c254-5c0c-437a-90a4-95cc9e0db2c1}</audio>
+                        <video>{51c217cb-9fec-4550-9b9f-7814259e3d44}</video>
+                        <thumb>{eeee73e2-a7c2-428a-8a22-89a78f0f702d}</thumb>
+                        <waveform>{d36331c6-1160-4942-9f80-7c43222b35ad}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.cornerpin" ptr="98797364341184">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="tex_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="perspective_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="top_left_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="top_right_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="bottom_right_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="bottom_left_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{7aa124b9-b46d-4e7f-b66c-4dcc849138a4}</audio>
+                        <video>{4dc43a86-b5b1-4524-a0b9-ad8a44482f4c}</video>
+                        <thumb>{85952b19-7c83-4199-85ef-5b5f6c246738}</thumb>
+                        <waveform>{776a175c-a3f7-4b97-b37b-2d2069bbc33a}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.displaytransform" ptr="98797364454416">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="tex_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="display_in">
+                        <primary>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="view_in">
+                        <primary>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="dir_in">
+                        <primary>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{65837f0a-083b-4fa4-a886-2fbd51c7729f}</audio>
+                        <video>{76e373e6-bec5-4410-9d3f-74968eccadec}</video>
+                        <thumb>{e3e03437-b772-45d8-a0c4-c81736588c12}</thumb>
+                        <waveform>{06856d59-efe3-4fac-9580-52b7ad15198d}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.ociogradingtransformlinear" ptr="98797364546496">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="tex_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="ocio_grading_primary_contrast">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>1</track>
+                                <track>1</track>
+                                <track>1</track>
+                                <track>1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="ocio_grading_primary_offset">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                                <track>0</track>
+                                <track>0</track>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="ocio_grading_primary_exposure">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                                <track>0</track>
+                                <track>0</track>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="ocio_grading_primary_saturation">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="ocio_grading_primary_pivot">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0.18</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="clamp_black_enable_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="ocio_grading_primary_clampBlack">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="clamp_white_enable_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="ocio_grading_primary_clampWhite">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{5d8a1a94-82f2-4a5c-88e2-351cf258b1b7}</audio>
+                        <video>{3935fe9c-53f2-4d2e-aa4b-6aec5d7fa284}</video>
+                        <thumb>{0fd0e481-f1f4-4340-9e31-6affe86bdd8f}</thumb>
+                        <waveform>{b5944d90-2ce5-4ab5-97c9-e7bb05f35b10}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.chromakey" ptr="98797364580576">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="tex_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="color_key">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                                <track>1</track>
+                                <track>0</track>
+                                <track>1</track>
+                            </standard>
+                            <csinput></csinput>
+                            <csdisplay></csdisplay>
+                            <csview></csview>
+                            <cslook></cslook>
+                        </primary>
+                    </input>
+                    <input id="lower_tolerence_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>5</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="upper_tolerence_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>25</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="garbage_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="core_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="highlights_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>100</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="shadows_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>100</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="invert_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="mask_only_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{4399315f-4816-4f9e-a3f5-a4dc4f827b6a}</audio>
+                        <video>{a256b571-0a39-4b05-8afb-99fd1c9ca539}</video>
+                        <thumb>{46f9252b-cee5-4a48-a7d0-33dcd0219040}</thumb>
+                        <waveform>{5648a784-30d6-44aa-a90d-7ce9a25a8dfd}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.mask" ptr="98797364577552">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="base_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="points_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                                <track>0</track>
+                                <track>0</track>
+                                <track>0</track>
+                                <track>0</track>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                        <subelements count="5">
+                            <element>
+                                <keyframing>0</keyframing>
+                                <standard>
+                                    <track>0</track>
+                                    <track>-135</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                </standard>
+                            </element>
+                            <element>
+                                <keyframing>0</keyframing>
+                                <standard>
+                                    <track>135</track>
+                                    <track>-45</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                </standard>
+                            </element>
+                            <element>
+                                <keyframing>0</keyframing>
+                                <standard>
+                                    <track>90</track>
+                                    <track>120</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                </standard>
+                            </element>
+                            <element>
+                                <keyframing>0</keyframing>
+                                <standard>
+                                    <track>-90</track>
+                                    <track>120</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                </standard>
+                            </element>
+                            <element>
+                                <keyframing>0</keyframing>
+                                <standard>
+                                    <track>-135</track>
+                                    <track>-45</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                    <track>0</track>
+                                </standard>
+                            </element>
+                        </subelements>
+                    </input>
+                    <input id="color_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>1</track>
+                                <track>1</track>
+                                <track>1</track>
+                                <track>1</track>
+                            </standard>
+                            <csinput></csinput>
+                            <csdisplay></csdisplay>
+                            <csview></csview>
+                            <cslook></cslook>
+                        </primary>
+                    </input>
+                    <input id="invert_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="feather_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{90cc3285-bc57-43f6-8e63-0a1b7521e602}</audio>
+                        <video>{32cb505b-a1dc-4745-bb58-438040a50188}</video>
+                        <thumb>{bc0903f3-9b4e-4276-bf0b-fc9a5877db70}</thumb>
+                        <waveform>{fef03cca-805d-4e50-a52f-ecd14262cc44}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.dropshadow" ptr="98797364305632">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="tex_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="color_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                                <track>0</track>
+                                <track>0</track>
+                                <track>1</track>
+                            </standard>
+                            <csinput></csinput>
+                            <csdisplay></csdisplay>
+                            <csview></csview>
+                            <cslook></cslook>
+                        </primary>
+                    </input>
+                    <input id="distance_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>10</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="angle_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>135</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="radius_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>10</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="opacity_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="fast_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{7fab1af7-f2a2-4c6b-aa72-8e7707490ca0}</audio>
+                        <video>{4079ad39-0540-464f-84d2-73b0eab29fae}</video>
+                        <thumb>{003b780b-9bad-4473-8413-e2b3c1538e6c}</thumb>
+                        <waveform>{137a1d6c-531f-4ff0-8c50-9eebe769fc4f}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.timeformat" ptr="98797364389152">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="time_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="format_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>hh:mm:ss</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="localtime_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{301b9525-a03c-41f3-ae1b-3ab4c2df5fee}</audio>
+                        <video>{0551978d-1aa8-412f-b4fb-e4aaffdbb487}</video>
+                        <thumb>{b6c881b1-5a37-42ac-b5c7-e3ac437c88ed}</thumb>
+                        <waveform>{ed493bec-d97b-4c12-aeb5-4a3e909d90e8}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.oliveeditor.Olive.wave" ptr="98797364394480">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="tex_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="frequency_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>10</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="intensity_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>10</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="evolution_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="vertical_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{f2ac0e0b-a377-4f1a-b948-e5215dd31fb8}</audio>
+                        <video>{7df5e7c9-b76a-4555-b4d3-3c6b8a57719c}</video>
+                        <thumb>{6fef22b2-848f-4e73-b817-d6b82751c213}</thumb>
+                        <waveform>{33ce1e8a-6360-4bb3-83b3-bc1d82d4ae1c}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.oliveeditor.Olive.ripple" ptr="98797364682016">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="tex_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="evolution_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="intensity_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>100</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="frequency_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>1</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="position_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="stretch_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{0a4fead9-3b64-4086-8413-788745a12209}</audio>
+                        <video>{fd998850-4848-4e83-960c-03f365eeb4cb}</video>
+                        <thumb>{8fbfcfdd-16b7-47b8-baf7-12ce0edaed07}</thumb>
+                        <waveform>{20518853-4855-473b-a110-af91924d3d40}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.oliveeditor.Olive.tile" ptr="98797364689952">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="tex_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="scale_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0.5</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="position_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="anchor_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>4</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="mirrorx_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="mirrory_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>false</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{35c54e94-a940-438e-ae90-cf42ed5b2888}</audio>
+                        <video>{45b35d67-38de-4c98-b2a7-1e8e11f6a126}</video>
+                        <thumb>{76015c12-cf8c-4b01-848d-5d2048ac5c5c}</thumb>
+                        <waveform>{9ae8763c-45ed-420e-bd95-c79a3d20f3b6}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.oliveeditor.Olive.swirl" ptr="98797364609584">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="tex_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="radius_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>200</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="angle_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>10</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="pos_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>0</track>
+                                <track>0</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{343db57d-7aaf-4454-8b06-20caf5df36e4}</audio>
+                        <video>{39d6032d-3c10-4892-a910-430d25037e0d}</video>
+                        <thumb>{9ca678ac-8537-46ee-b710-ad196e40326a}</thumb>
+                        <waveform>{492a4896-3f49-4afa-9f2f-541cc9a78b58}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+                <node version="1" id="org.olivevideoeditor.Olive.multicam" ptr="98797364617424">
+                    <input id="enabled_in">
+                        <primary>
+                            <keyframing>0</keyframing>
+                            <standard>
+                                <track>true</track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="current_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="sources_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="sequence_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <input id="sequence_type_in">
+                        <primary>
+                            <standard>
+                                <track></track>
+                            </standard>
+                        </primary>
+                    </input>
+                    <caches>
+                        <audio>{7fd9da3f-0215-4697-822c-4b1c084088c4}</audio>
+                        <video>{e3566375-810c-42e0-9e82-d4c929b06db1}</video>
+                        <thumb>{4dbcf946-5190-4d9c-b06f-4e2615498b6d}</thumb>
+                        <waveform>{ea7b2b78-d3d5-442a-872e-5beff79a2198}</waveform>
+                    </caches>
+                    <custom/>
+                </node>
+            </nodes>
+            <settings>
+                <colorreferencespace>scene_linear</colorreferencespace>
+                <defaultinputcolorspace>Rec.709 OETF</defaultinputcolorspace>
+            </settings>
+        </project>
+        <layout version="1">
+            <folders/>
+            <timeline/>
+            <viewers/>
+            <data/>
+            <state></state>
+        </layout>
+    </project>
+</olive>

@@ -1,0 +1,12 @@
+project: savantenvs/olive
+target: fuzz_project_load
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_project_load/testsuite
+
+cmds:
+  - cmd: /mayhem/fuzz_project_load
+    libfuzzer: true
+    timeout: 10
+    dictionary: /mayhem/mayhem/fuzz_project_load/fuzz_project_load.dict

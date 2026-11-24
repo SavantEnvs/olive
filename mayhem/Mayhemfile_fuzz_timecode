@@ -1,0 +1,11 @@
+project: savantenvs/olive
+target: fuzz_timecode
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_timecode/testsuite
+
+cmds:
+  - cmd: /mayhem/fuzz_timecode
+    libfuzzer: true
+    timeout: 10

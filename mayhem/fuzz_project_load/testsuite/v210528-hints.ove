@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<olive><version>210528</version><url>x.ove</url><project><layout><folders/><timeline/><viewers/></layout><nodes>
+<node id="org.olivevideoeditor.Olive.math" version="1"><ptr>1</ptr><label>M</label><uuid>{11111111-1111-1111-1111-111111111111}</uuid><color>3</color>
+<input id="param_a"><primary><standard><track>1.5</track></standard><keyframing>1</keyframing><keyframes><track><key time="0/1" type="0" inhandlex="0" inhandley="0" outhandlex="0" outhandley="0">2</key></track></keyframes></primary><subelements count="0"/></input>
+<hints><hint input="param_a" element="-1"><types><type>1</type></types><index>0</index><tag>t</tag></hint></hints>
+<connections><connection element="-1" input="param_b"><output>2</output></connection></connections>
+<links><link>2</link></links><custom/></node>
+<node id="org.olivevideoeditor.Olive.folder"><ptr>2</ptr><label>Folder</label></node>
+</nodes></project></olive>

@@ -1,0 +1,12 @@
+project: savantenvs/olive
+target: fuzz_paste
+
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_paste/testsuite
+
+cmds:
+  - cmd: /mayhem/fuzz_paste
+    libfuzzer: true
+    timeout: 10
+    dictionary: /mayhem/mayhem/fuzz_paste/fuzz_paste.dict
